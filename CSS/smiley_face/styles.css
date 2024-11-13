@@ -1,0 +1,33 @@
+/* smiley face creation */
+
+#face {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 50%;
+}
+
+#left, #right {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+#right {
+    left: 250px;
+}
+
+#mouth {
+    height: 75px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
